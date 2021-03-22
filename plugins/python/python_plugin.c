@@ -2090,6 +2090,7 @@ struct uwsgi_plugin python_plugin = {
 	.preinit_apps = uwsgi_python_preinit_apps,
 	.init_apps = uwsgi_python_init_apps,
 
+
 	.fixup = uwsgi_python_fixup,
 	.master_fixup = uwsgi_python_master_fixup,
 	.master_cycle = uwsgi_python_master_cycle,
