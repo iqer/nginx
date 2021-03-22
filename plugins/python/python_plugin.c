@@ -2076,6 +2076,7 @@ static void uwsgi_python_master_cycle() {
 }
 
 
+// python插件定义的结构, after
 struct uwsgi_plugin python_plugin = {
 	.name = "python",
 	.alias = "python",
